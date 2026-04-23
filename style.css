@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    font-family: Arial, sans-serif;
+}
+
+/* FOTO */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* CARD */
+.custom-card {
+    border: none;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+/* EFEK HOVER */
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+/* JUDUL */
+.card-title {
+    font-weight: bold;
+}
+
+/* INPUT */
+.form-control {
+    border-radius: 10px;
+}
+
+/* BUTTON */
+.btn-primary {
+    border-radius: 10px;
+    font-weight: bold;
+}
